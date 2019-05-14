@@ -1,5 +1,5 @@
-# mynacos
-nacos demo
+
+#nacos demo
 
 1.[下载最新版nacos客户端](https://github.com/alibaba/nacos/releases)，并启动nacos(本工程使用的是1.0.0版本)<br/>
 2.下载代码 <code>git clone https://github.com/ez1215/mynacos.git</code><br/>
