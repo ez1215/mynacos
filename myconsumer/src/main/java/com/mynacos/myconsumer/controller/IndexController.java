@@ -1,7 +1,7 @@
-package com.myconsumer.myconsumer.controller;
+package com.mynacos.myconsumer.controller;
 
 
-import com.myconsumer.myconsumer.service.IndexService;
+import com.mynacos.myconsumer.service.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.myconsumer.myconsumer.service;
+package com.mynacos.myconsumer.service;
 
 
 import org.springframework.cloud.openfeign.FeignClient;
