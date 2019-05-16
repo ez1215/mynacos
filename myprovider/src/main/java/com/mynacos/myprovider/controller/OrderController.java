@@ -17,8 +17,8 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    @RequestMapping(value = "getOrderList",method = RequestMethod.GET)
-    public Object getOrderList(Integer pageNum,Integer pageSize){
+    @RequestMapping(value = "/list",method = RequestMethod.GET)
+    public Object list(Integer pageNum,Integer pageSize){
         if (null == pageNum || pageNum < 1)
             pageNum = 1;
         if (null == pageSize || pageSize < 1)

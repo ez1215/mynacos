@@ -14,8 +14,8 @@ public class OrderController {
     @Autowired
     private ProviderService orderService;
 
-    @GetMapping("/orderList")
-    public Object orderList(){
-        return orderService.getOrderList(1,10);
+    @GetMapping("/list")
+    public Object list(){
+        return orderService.list(1,10);
     }
 }

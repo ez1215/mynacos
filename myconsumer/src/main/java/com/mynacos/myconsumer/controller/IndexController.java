@@ -14,7 +14,6 @@ public class IndexController {
 
     @RequestMapping(value = "/feign",method = RequestMethod.GET)
     public String hello(String name){
-        System.out.println(name);
         return providerService.hello(name);
     }
 }
