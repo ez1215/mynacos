@@ -1,7 +1,7 @@
 package com.mynacos.myconsumer.controller;
 
 
-import com.mynacos.myconsumer.service.IndexService;
+import com.mynacos.myconsumer.service.ProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 public class IndexController {
 
     @Autowired
-    private IndexService indexService;
+    private ProviderService providerService;
 
     @RequestMapping(value = "/feign",method = RequestMethod.GET)
     public String hello(String name){
         System.out.println(name);
-        return indexService.hello(name);
+        return providerService.hello(name);
     }
 }

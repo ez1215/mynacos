@@ -32,6 +32,7 @@
   <modules>
     <module>myprovider</module>
     <module>myconsumer</module>
+    <module>generator</module>
   </modules>
 
   <build>
